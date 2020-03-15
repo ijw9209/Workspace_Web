@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;LoginBoardDto.java&apos; to &apos;Jsp09_AnswerBoard02/src/com.answer.dto&apos;&#x0D;&#x0A;- Original project: &apos;Jsp04_Login&apos;&#x0D;&#x0A;- Destination element: &apos;Jsp09_AnswerBoard02/src/com.answer.dto&apos;&#x0D;&#x0A;- Original element: &apos;com.login.dto.LoginBoardDto.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=Jsp09_AnswerBoard02/src&lt;com.answer.dto" element1="/src&lt;com.login.dto{LoginBoardDto.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1561741315518" units="1" version="1.0"/>
+</session>

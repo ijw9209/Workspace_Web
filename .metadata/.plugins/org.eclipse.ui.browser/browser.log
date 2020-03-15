@@ -1,0 +1,31 @@
+
+6월 17, 2019 20:21:44.04 NEW SESSION
+6월 17, 2019 20:21:44.04 [1928:2496:0617/202144.036:ERROR:browser_process_sub_thread.cc(217)] Waited 124 ms for network service
+6월 17, 2019 21:45:10.25 [3556:4164:0617/214510.258:ERROR:browser_process_sub_thread.cc(217)] Waited 92 ms for network service
+
+6월 22, 2019 02:17:00.03 NEW SESSION
+6월 22, 2019 02:17:00.03 [11832:7548:0622/021700.002:ERROR:platform_sensor_reader_win.cc(244)] NOT IMPLEMENTED
+
+6월 23, 2019 16:39:31.00 NEW SESSION
+6월 23, 2019 16:39:31.00 [6232:6484:0623/163931.006:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+6월 23, 2019 16:39:56.35 [6232:6484:0623/163956.357:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+6월 23, 2019 16:40:55.92 [6232:6484:0623/164055.920:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+6월 23, 2019 16:42:29.38 [6232:6484:0623/164229.383:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+6월 23, 2019 18:30:03.74 [6232:4104:0623/183003.747:ERROR:browser_process_sub_thread.cc(221)] Waited 15 ms for network service
+
+6월 25, 2019 01:23:16.31 NEW SESSION
+6월 25, 2019 01:23:16.31 [6920:1344:0625/012316.311:ERROR:textfield.cc(1758)] NOT IMPLEMENTED
+
+6월 30, 2019 22:19:48.43 NEW SESSION
+6월 30, 2019 22:19:48.43 [2768:8860:0630/221948.427:ERROR:browser_process_sub_thread.cc(221)] Waited 12 ms for network service
+6월 30, 2019 23:54:37.71 [2812:5620:0630/235437.718:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+6월 30, 2019 23:56:17.25 [2812:5676:0630/235617.252:ERROR:browser_process_sub_thread.cc(221)] Waited 9 ms for network service
+
+7월 04, 2019 02:06:08.96 NEW SESSION
+7월 04, 2019 02:06:08.96 [5776:5280:0704/020608.957:ERROR:browser_process_sub_thread.cc(221)] Waited 25 ms for network service
+
+7월 05, 2019 04:49:14.00 NEW SESSION
+7월 05, 2019 04:49:14.01 [1632:8248:0705/044913.999:ERROR:browser_process_sub_thread.cc(221)] Waited 28 ms for network service
+
+8월 21, 2019 02:29:31.61 NEW SESSION
+8월 21, 2019 02:29:31.61 [3356:2188:0821/022931.609:ERROR:browser_process_sub_thread.cc(203)] Waited 7 ms for network service

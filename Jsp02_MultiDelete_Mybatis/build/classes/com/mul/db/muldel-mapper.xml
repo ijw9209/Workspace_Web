@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!-- mapper의 이름은 아무거나 해도됨 -->
+<mapper namespace="muldelmapper">
+
+	
+
+		
+	<select id="selectList" resultType="MDdto">
+	 SELECT SEQ,WRITER,TITLE,CONTENT,REGDATE
+	 FROM MDBOARD 
+	 ORDER BY SEQ DESC
+	</select>
+	
+	<select id="selectOne" parameterType="int" resultType="MDdto">
+	SELECT SEQ,WRITER,TITLE,CONTENT,REGDATE
+	FROM MDBOARD 
+	WHERE SEQ = #{seq}
+	</select>
+	
+	<insert id="insert" parameterType="MDdto">
+	INSERT INTO MDBOARD
+	VALUES(MDBOARDSEQ.NEXTVAL,#{writer},#{title},#{content},SYSDATE)
+	
+	</insert>
+	
+	<update id="update" parameterType="MDdto">
+	UPDATE MDBOARD 
+	SET TITLE = #{title} , CONTENT = #{content}
+	WHERE SEQ = #{seq}
+	</update>
+	
+	<delete id="delete" parameterType="int">
+	DELETE FROM MDBOARD
+	WHERE SEQ = #{seq}
+	</delete>
+	<!-- DELETE FROM MDBOARD
+		WHERE SEQ IN(1,3,4) collection="seqs"<키값 --> 
+	<delete id="muldel" parameterType="map">
+		DELETE FROM MDBOARD
+		WHERE SEQ IN
+		<foreach collection="seqs" item="seq" open="(" separator="," close=")">
+			#{seq}
+		</foreach>
+	</delete>
+	
+	<select id="selectLike" resultType="MDdto" parameterType="String">
+  	SELECT * FROM MDBOARD
+  	WHERE TITLE LIKE '%'||#{str}||'%'
+	</select>
+</mapper>
